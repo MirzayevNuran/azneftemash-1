@@ -7,7 +7,7 @@ import photo4 from '../../assets/img/4.jpg'
 import photo5 from '../../assets/img/5.jpg'
 
 // Import Swiper styles
-import 'swiper/css'
+import 'swiper.css'
 
 import './style.css'
 
