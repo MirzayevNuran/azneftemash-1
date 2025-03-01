@@ -1,7 +1,6 @@
 import { Button } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { Item } from '../../utils/types'
-import './navbar.scss'
 
 interface NavItemProps {
 	item: Item
