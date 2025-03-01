@@ -1,0 +1,112 @@
+.containerAbout {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #1d398d;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.aboutBirlikImg {
+	margin: 0 auto;
+	display: flex;
+}
+
+.reportBox {
+	display: flex;
+	justify-content: space-between;
+	height: 25vh;
+	margin-bottom: 80px;
+	padding: 0 120px;
+}
+
+.reportSpan {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.reportIcon {
+	display: flex;
+	height: 200px;
+	width: 180px;
+}
+
+.report_p {
+	text-align: center;
+}
+
+.boxVideo {
+	width: 80%;
+	padding: 0 100px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+	justify-content: center;
+	align-items: center;
+
+	@media (max-width: 1024px) {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Media for Responsiveness */
+@media (max-width: 768px) {
+	.containerAbout {
+		max-width: 90%;
+		padding: 0 20px;
+	}
+
+	.boxVideo {
+		max-width: 90%;
+		padding: 0 20px;
+	}
+
+	.reportBox {
+		flex-direction: row;
+		height: auto;
+		margin-bottom: 40px;
+	}
+
+	.reportIcon {
+		height: 150px;
+		width: 150px;
+	}
+
+	.aboutBirlikImg {
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	.report_p {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.containerAbout,
+	.boxVideo {
+		max-width: 95%;
+		padding: 0 10px;
+	}
+
+	.reportBox {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.reportIcon {
+		height: 120px;
+		width: 120px;
+	}
+
+	.report_p {
+		font-size: 12px;
+	}
+
+	.aboutBirlikImg {
+		flex-direction: column;
+		max-width: 100%;
+	}
+}

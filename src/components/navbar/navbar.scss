@@ -1,0 +1,113 @@
+.mainBox {
+	padding: 0;
+	display: flex;
+	background-color: transparent !important;
+}
+
+.mainContainer {
+	width: 50%;
+}
+
+.mainNavLists {
+	// border: 1px solid purple;
+	min-width: 1600px;
+}
+
+@media (max-width: 1400px) {
+	.mainNavLists {
+		// border: 1px solid green;
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 1024px) {
+	// .mainNavLists {
+	// 	border: 1px solid red;
+	// }
+}
+
+.navbarIMG {
+	display: flex;
+	height: 100px;
+	width: 110px;
+}
+
+.mainList {
+	width: 100%;
+}
+
+.topList {
+	padding-left: 10px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.navSearch {
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	height: 24px;
+	width: 210px;
+	background: #f1f2f5;
+
+	.navSearchInput {
+		background-color: inherit;
+		border: none;
+		color: #1d398d;
+		text-align: center;
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.navSearchIcon {
+	position: absolute;
+	right: -16px;
+	height: 30px;
+	width: 3px;
+	background-color: rgb(25, 63, 105);
+	color: #fff;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.bottomList {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.bottomListLangContact {
+	display: flex;
+	align-items: center;
+	height: 48px;
+	margin-bottom: 3px;
+}
+
+a {
+	font-weight: 500;
+	color: #1d398d;
+	text-decoration: none;
+
+	&:hover {
+		color: orange;
+	}
+}
+
+.navLists {
+	height: 40px;
+	display: flex;
+	color: #1d398d;
+}
+
+.mySwiper img {
+	width: 100%;
+	object-fit: cover;
+	filter: brightness(0.7);
+}

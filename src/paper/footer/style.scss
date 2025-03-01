@@ -1,0 +1,136 @@
+footer {
+	height: 50%;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	background: #1d398d;
+	color: #f9f9f9;
+}
+
+footer article h2 {
+	font-weight: 400;
+	color: rgb(255 255 255 / 70%);
+}
+
+footer article button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 0 40px 0 44px;
+	width: 100%;
+	background: #0a1536;
+	border: 0;
+	border-radius: 30px;
+	color: #f9f9f9;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+footer section {
+	padding: 0 50px;
+}
+
+section.top {
+	padding-top: 30px;
+}
+
+section.top img {
+	display: block;
+	height: 100px;
+}
+
+section.top ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 480px) {
+	footer article button {
+		width: 70%;
+	}
+
+	section.top ul {
+		padding-right: 10%;
+	}
+}
+
+@media (min-width: 600px) {
+	section.top ul {
+		grid-template-columns: repeat(5, 1fr);
+		padding-right: 0;
+	}
+}
+
+section.top ul li a,
+section.top ul li p {
+	display: block;
+	margin-bottom: 10px;
+	color: rgb(255 255 255 / 90%);
+}
+
+.link_A:hover,
+.linkLocation:hover,
+.socialsIcons:hover {
+	cursor: pointer;
+	color: orange;
+}
+
+section.top h3 {
+	color: rgb(255 255 255 / 40%);
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+section.bottom {
+	padding-top: 10px;
+	border-top: 2px solid rgb(255 255 255 / 10%);
+	color: rgb(255 255 255 / 40%);
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.spanLocation,
+.linkLocation {
+	position: relative;
+	display: flex;
+	color: rgb(255 255 255 / 40%);
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.iconLocation {
+	position: absolute;
+	left: -25px;
+	bottom: 0;
+	height: 2px;
+	width: 2px;
+}
+
+.socials {
+	max-width: 200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 15px;
+	flex-direction: row;
+	@media (max-width: 480px) {
+		flex-direction: row;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	@media (min-width: 600px) {
+		flex-direction: column;
+	}
+}

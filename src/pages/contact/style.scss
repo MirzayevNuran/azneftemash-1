@@ -1,0 +1,56 @@
+.contacts-container {
+	width: 90%;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	color: #1d398d;
+	padding: 0 120px;
+
+	h2 {
+		margin-bottom: 10px;
+		border-bottom: 2px solid #1d398d;
+		padding-bottom: 5px;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: 20px;
+
+		td {
+			border: 1px solid #1d398d;
+			padding: 10px;
+		}
+
+		a {
+			color: #1d398d;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+/* Секции */
+.contacts-section,
+.coordinates-section,
+.branches-section {
+	margin-bottom: 30px;
+}
+
+/* Медиа-запросы */
+@media (max-width: 768px) {
+	.contacts-container {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	table {
+		font-size: 14px;
+	}
+
+	td {
+		display: block;
+		width: 100%;
+	}
+}

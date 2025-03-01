@@ -1,0 +1,60 @@
+{
+	"contacts": [
+		{ "title": "Reception", "phone": "+99412-514-88-88" },
+		{
+			"title": "Aliyev Valeh Ajdarovic (Plant Manager \"Azneftemash\")",
+			"phone": "+99450-221-67-56"
+		},
+		{
+			"title": "Kerimova Olga Grigoryevna (Head of Marketing Department)",
+			"phone": "+99412-514-89-89"
+		},
+		{ "title": "Marketing department", "phone": "+99412-514-89-89" },
+		{
+			"title": "Ismaylova Taira Idrisgizi (Head of Financial Department)",
+			"phone": "+99412-514-88-91, +99412-514-88-92"
+		},
+		{
+			"title": "Yusif-zade Elena Andreyevna (Assistant Director-General)",
+			"phone": "+99450-250-12-20"
+		},
+		{ "title": "Fax", "phone": "+99412-514-88-90" },
+		{ "title": "Address", "address": "Haydar Aliyev ave, 106a, AZ1029" },
+		{
+			"title": "E-mail",
+			"email": "office@azneftemash.az, azneftemash@gmail.com"
+		},
+		{ "title": "Website", "website": "www.azneftemash.az" }
+	],
+	"coordinates": {
+		"address": "Haydar Aliyev ave, 106a, AZ1029",
+		"phones": ["+99412-514-88-00", "+99412-514-88-88", "+99412-514-88-89"],
+		"fax": "+99412-514-88-90",
+		"mob": "+99450-250-12-20",
+		"emails": ["office@azneftemash.az", "azneftemash@gmail.com"],
+		"website": "www.azneftemash.az"
+	},
+	"branches": [
+		{
+			"name": "Ashabad",
+			"director": "Bahara Karadjaeva",
+			"phone": "+99312-48-44-30",
+			"fax": "+99312-48-26-98"
+		},
+		{
+			"name": "Kazakhstan (Aktau)",
+			"director": "Mashirow Muratbek Najmedinovich",
+			"phone": "+7775-361-08-50"
+		},
+		{
+			"name": "Uzbekistan (Tashkent)",
+			"director": "Mamed Mamedovic",
+			"phone": "+998-909-22-00-71"
+		},
+		{
+			"name": "Dubai",
+			"director": "Gasanova Aygun Baratali",
+			"phone": "+97156-607-23-27"
+		}
+	]
+}
